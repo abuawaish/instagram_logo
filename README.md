@@ -1,23 +1,2 @@
-# instagram_logo
-from turtle import *
-bgpic("insta_color.gif")
-title("INSTAGRAM_LOGO")
-pencolor("white")
-width(20)
-penup()
-goto(160,-100)
-pendown()
-left(90)
-for i in range(4):
-    forward(250)
-    circle(34,90)
-penup()
-goto(85,30)
-pendown()
-circle(80,360)
-penup()
-goto(110,130)
-pendown()
-circle(7,360)
-hideturtle()
-done()
+this is a simple logo designs with the help of turtle module.
+note : Before running this python file, put the “insta_color.gif” file in the same folder where your python file exists.
